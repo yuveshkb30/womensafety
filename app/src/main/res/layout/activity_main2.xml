@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome !"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"/>
+
+    <ImageView
+        android:id="@+id/imgWomensafety"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:src="@drawable/womensafety"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"/>
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Contacts"
+        android:layout_below="@id/imgWomensafety"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"/>
+
+    <Button
+        android:id="@+id/Emergency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency"
+        android:layout_below="@id/Add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"/>
+
+
+</RelativeLayout>
